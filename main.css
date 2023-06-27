@@ -1,0 +1,322 @@
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: 33.33%;
+}
+
+.title {
+    width: 40%;
+}
+
+.subtitle {
+    width: 30%;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+
+.caja {
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja .name {
+    align-items: start;
+    font-weight: bolder;
+}
+
+.caja:nth-child(2),
+.caja:nth-child(5) {
+  margin-top: 80px;
+}
+
+.caja img {
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.caja .name {
+    order: 1;
+    text-align: left;
+}
+
+.caja .rol_1 {
+    order: 2;
+    position: relative; 
+    writing-mode: vertical-lr;
+    margin-left: 10px;
+    transform-origin: top right; 
+    transform: translate(900%, -315%);
+    font-weight: normal;
+}
+
+.caja .rol_2 {
+    order: 2;
+    position: relative; 
+    writing-mode: vertical-lr;
+    margin-left: 10px;
+    transform-origin: top right; 
+    transform: translate(900%, -390%);
+    font-weight: normal;
+}
+
+.caja .rol_3 {
+    order: 2;
+    position: relative; 
+    writing-mode: vertical-lr;
+    margin-left: 10px;
+    transform-origin: top right; 
+    transform: translate(900%, -450%);
+    font-weight: normal;
+}
+
+.caja .rol_4 {
+    order: 2;
+    position: relative; 
+    writing-mode: vertical-lr;
+    margin-left: 10px;
+    transform-origin: top right; 
+    transform: translate(900%, -410%);
+    font-weight: normal;
+}
+
+.caja .rol_5 {
+    order: 2;
+    position: relative; 
+    writing-mode: vertical-lr;
+    margin-left: 10px;
+    transform-origin: top right; 
+    transform: translate(900%, -470%);
+    font-weight: normal;
+}
+
+.caja .rol_6 {
+    order: 2;
+    position: relative; 
+    writing-mode: vertical-lr;
+    margin-left: 10px;
+    transform-origin: top right; 
+    transform: translate(900%, -470%);
+    font-weight: normal;
+}
+
+
+@media (max-width: 768px) {
+    .caja {
+        flex-basis: 50%;
+    }
+
+    header {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-flow: column wrap;
+        flex-basis: 33.33%;
+    }
+
+    .title {
+        order: 1;
+        width: 100%;
+    }
+
+    .subtitle {
+        order: 2;
+        width: 100%;
+    }
+
+    .caja img {
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+
+    
+    .caja:nth-child(5) {
+      margin-top: 0 !important;
+    }
+
+    .caja:nth-child(2),
+    .caja:nth-child(4),
+    .caja:nth-child(6) {
+        margin-top: 70px !important;
+    }
+
+    .caja .rol_1 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(800%, -285%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_2 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(800%, -350%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_3 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(800%, -410%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_4 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(800%, -380%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_5 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(800%, -425%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_6 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(800%, -425%);
+        font-weight: normal;
+    }
+}
+  
+  @media (max-width: 480px) {
+    .caja {
+        flex-basis: 100%;
+    }
+
+    header {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-flow: column wrap;
+        flex-basis: 33.33%;
+    }
+
+    .title {
+        order: 1;
+        width: 100%;
+    }
+
+    .subtitle {
+        order: 2;
+        width: 100%;
+    }
+
+    .flex-container {
+        margin-top: 2% !important;
+    }
+
+    .caja img {
+        width: 70%;
+        height: auto;
+        display: block;
+    }
+
+    .caja:nth-child(2),
+    .caja:nth-child(5) {
+        margin-top: 0 !important;
+    }
+
+    .caja .rol_1 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(930%, -335%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_2 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(930%, -420%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_3 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(930%, -480%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_4 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(930%, -440%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_5 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(930%, -500%);
+        font-weight: normal;
+    }
+    
+    .caja .rol_6 {
+        order: 2;
+        position: relative; 
+        writing-mode: vertical-lr;
+        margin-left: 10px;
+        transform-origin: top right; 
+        transform: translate(930%, -500%);
+        font-weight: normal;
+    }
+}
+
